@@ -1,0 +1,223 @@
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-image: url("../images/gplaypattern.png")
+}
+
+.footer {
+    background: #666666;
+    position: fixed;
+    bottom: 0;
+    height: 5em;
+    width: 100%;
+    border-top: 8px #4aaaa5 solid;
+}
+
+#footerText {
+    background: #666666;
+    position: fixed;
+    bottom: 1em;   
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    text-align: center;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.contentTitle {
+    width: 100%;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color:  #4aaaa5;
+    padding: 1em 0em 1em 0em;
+    font-size: 2em;
+    border-bottom: 2px lightgrey solid;
+}
+
+.contentArticle {
+    padding: 2em 0em 0em 0em;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #777777;
+    line-height: 2em;
+}
+
+.portfolioShortcut {
+    width: 320px;
+    height: 240px;
+    background-size: 320px 240px;
+    color: #ffffff;
+    margin: 1em 2em 1em 0em;
+    flex:none;
+    position: relative;
+    border: 1px lightgray solid;
+}
+
+.shortcutTitle {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 2em;
+    text-align: center;
+    box-sizing: border-box;
+    padding: .5em 0em .5em 0em;
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+@media only screen and (max-width: 640px) {
+    .header {
+        border-bottom: 1px #777777 solid;
+        position: static;
+    }
+    .brand {
+        background: #4aaaa5;
+        color: #ffffff;
+        font-size: 2em;
+        text-align: center;
+        padding: .75em 0em .75em 0em;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+    .nav {
+        background: #ffffff;
+        color: #777777;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        padding: 1em 0em 1em 0em;
+        font-size: 1.25em;
+        text-align: center;
+    }
+    .content {
+        background: #ffffff;
+        margin: 1em 1em 6em 1em;
+        width: auto;
+        padding: 1em 1em 1em 1em;
+        border: 1px lightgrey solid;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+    .header {
+        border-bottom: 1px #777777 solid;
+        background: #ffffff;
+        padding-left: 1em;
+        padding-right: 1em;
+        display: flex;
+    }
+    .brand {
+        background: #4aaaa5;
+        color: #ffffff;
+        font-size: 2em;
+        text-align: center;
+        padding: .75em .75em .75em .75em;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+    .nav {
+        background: #ffffff;
+        color: #777777;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        padding: 1em 0em 1em 0em;
+        font-size: 1.25em;
+        text-align: center;
+        margin-left: auto;
+    }
+    .content {
+        background: #ffffff;
+        margin: 2em 1em 6em 1em;
+        width: auto;
+        padding: 1em 1em 1em 1em;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px lightgrey solid;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+    .header {
+        border-bottom: 1px #777777 solid;
+        display: flex;
+        background: #ffffff;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .brand {
+        background: #4aaaa5;
+        color: #ffffff;
+        font-size: 2em;
+        text-align: center;
+        padding: .75em .75em .75em .75em;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+    .nav {
+        background: #ffffff;
+        color: #777777;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        padding: 1em 0em 1em 0em;
+        font-size: 1.25em;
+        text-align: center;
+        margin-left: auto;
+    }
+    .content {
+        background: #ffffff;
+        margin: 2em 2em 6em 1em;
+        width: auto;
+        max-width: 768px;
+        padding: 1em 1em 1em 1em;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px lightgrey solid;
+    }
+}
+
+@media only screen and (min-width: 981px) {
+    .header {
+        border-bottom: 1px #777777 solid;
+        display: flex;
+        background: #ffffff;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .brand {
+        background: #4aaaa5;
+        color: #ffffff;
+        font-size: 2em;
+        text-align: center;
+        padding: .75em .75em .75em .75em;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+    .nav {
+        background: #ffffff;
+        color: #777777;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        padding: 1em 0em 1em 0em;
+        font-size: 1.25em;
+        text-align: center;
+        margin-left: auto;
+    }
+    .content {
+        background: #ffffff;
+        margin: 2em 2em 6em 2em;
+        width: auto;
+        max-width: 768px;
+        padding: 1em 1em 1em 1em;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px lightgrey solid;
+    }
+}
